@@ -1,3 +1,4 @@
+import os
 from bottle import route, run, view, static_file
 from datetime import datetime as dt
 from random import random
