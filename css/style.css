@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Noto+Serif|PT+Serif');
+
+body {
+	background: black;
+	color: white;
+	font-family: 'PT Serif', serif;
+}
+
+h1 {
+	font-family: 'Noto Serif', serif;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+a:hover {
+	color: black;
+	background: red;
+}
+ul > li{
+	font-style: italic;
+}
+p::first-line {
+	/*text-decoration: underline;*/
+}
+.capitalize {
+	color: red;
+	font-size: 200%;
+	margin-left: 30px;
+	font-family: 'Lobster', fantasy;
+}
+.container {
+	margin: 0;
+}
+.col:hover {
+	background: #3a2745;
+}
