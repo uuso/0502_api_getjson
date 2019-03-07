@@ -42,7 +42,7 @@
 	<script language="javascript">
 		
 		// advice_url = "http://sf-pyw.mosyag.in/m04/api/forecasts"
-		advice_url = "http://localhost:8080/api/forecasts"
+		advice_url = "https://afternoon-basin-17118.herokuapp.com/api/forecasts"
 		
 		$("#main-header").click(function() {
 			$.getJSON(advice_url, function(data) {				
